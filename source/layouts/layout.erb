@@ -18,8 +18,9 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
-    <%= stylesheet_link_tag "animate.min.css", "groundedweb" %>
-    <%= javascript_include_tag  "all" %>
+    <%= stylesheet_link_tag "font-awesome/css/font-awesome.min.css" %>
+    <%= stylesheet_link_tag "animate.min.css" %>
+    <%= stylesheet_link_tag "groundedweb" %>
   </head>
 
   <body id="page-top">
@@ -57,21 +58,15 @@
           </div>
           <!-- /.container-fluid -->
       </nav>
-      
+
     <%= yield %>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
+    <%= javascript_include_tag('jquery.js') %>
+    <%= javascript_include_tag('bootstrap.min.js') %>
+    <%= javascript_include_tag('jquery.easing.js') %>
+    <%= javascript_include_tag('jquery.fittext.js') %>
+    <%= javascript_include_tag('wow.min.js') %>
+    <%= javascript_include_tag('groundedweb.js') %>
+    
   </body>
 </html>
