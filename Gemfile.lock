@@ -31,17 +31,22 @@ GEM
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
     eventmachine (1.0.7)
+    eventmachine (1.0.7-java)
     execjs (2.5.2)
     ffi (1.9.10)
+    ffi (1.9.10-java)
     haml (4.0.6)
       tilt
     hike (1.2.3)
     hitimes (1.2.2)
+    hitimes (1.2.2-java)
     hooks (0.4.0)
       uber (~> 0.0.4)
     http_parser.rb (0.6.0)
+    http_parser.rb (0.6.0-java)
     i18n (0.7.0)
     json (1.8.3)
+    json (1.8.3-java)
     kramdown (1.8.0)
     listen (2.10.1)
       celluloid (~> 0.16.0)
@@ -109,17 +114,21 @@ GEM
       tilt (~> 1.1)
     thor (0.19.1)
     thread_safe (0.3.5)
+    thread_safe (0.3.5-java)
     tilt (1.4.1)
     timers (4.0.1)
       hitimes
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2015.5)
+      tzinfo (>= 1.0.0)
     uber (0.0.13)
     uglifier (2.7.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
 
 PLATFORMS
+  java
   ruby
 
 DEPENDENCIES
@@ -127,3 +136,6 @@ DEPENDENCIES
   middleman-livereload (~> 3.1.0)
   tzinfo-data
   wdm (~> 0.1.0)
+
+BUNDLED WITH
+   1.10.6
