@@ -187,6 +187,13 @@ aside {
     }
 }
 
+.navbar-brand {
+  padding: 0;
+  padding-top: 3px;
+  padding-left: 15px;
+}
+
+
 header {
     position: relative;
     width: 100%;
